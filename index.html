@@ -1044,11 +1044,8 @@ void main() {
       <div class="highlight-clean">
         <p><strong>📌 Ringkasan Methods vs Extension dalam OOP Dart</strong></p>
         <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
-          <li><strong>Methods (Instance Method):</strong> Perilaku bawaan yang didefinisikan langsung di dalam kelas. Memiliki akses penuh ke properti private.</li>
-          <li><strong>Extension Methods:</strong> Mekanisme untuk menambah fungsionalitas ke tipe data yang sudah ada (bawaan atau custom) tanpa mengubah kode sumber asli.</li>
-          <li>Keuntungan utama: kode lebih <strong>ekspresif, readable, dan terorganisir</strong>. Contoh: <code>nama.capitalize()</code> lebih natural daripada <code>StringUtils.capitalize(nama)</code>.</li>
-          <li>Pahami prioritas (Method Asli &gt; Extension Non-Nullable &gt; Extension Nullable) untuk menghindari perilaku tak terduga.</li>
-          <li>Extension methods mendukung prinsip <strong>Open/Closed</strong> (terbuka untuk ekstensi, tertutup untuk modifikasi) dalam OOP.</li>
+          <li><strong>Gunakan Method Asli untuk membangun fondasi dan keamanan internal kelas Anda, dan gunakan Extension Method untuk memperluas kemampuan, menyederhanakan validasi, serta mempercantik keterbacaan kode (clean code) dari luar.</li>
+      
         </ul>
       </div>
     </div>
@@ -1059,8 +1056,6 @@ void main() {
       <div class="highlight-clean">
         <p><strong>🌟 Refleksi Akhir</strong></p>
         <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
-          <li>Perbedaan utama antara method asli dan extension terletak pada lokasi definisi: method asli adalah bagian integral kelas, extension adalah tambahan eksternal.</li>
-          <li>Dengan extension methods, kita bisa menciptakan <em>Domain-Specific Language (DSL)</em> yang indah dan mudah dipahami, terutama untuk validasi, formatting, dan operasi koleksi.</li>
           <li>Semoga dokumentasi dan contoh-contoh di atas memberikan pemahaman komprehensif tentang Extension Methods di Dart/Flutter.</li>
           <li>Teruslah berkarya dan eksplorasi — kode yang bersih adalah investasi jangka panjang! 🚀</li>
         </ul>
