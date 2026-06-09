@@ -22,19 +22,22 @@
     }
 
     body {
-      background: #ffffff;
+      background: #f5f0e8;
+      /* krem pasir */
       font-family: 'Inter', sans-serif;
-      color: #1e293b;
+      color: #3e2a27;
+      /* coklat tua hangat */
       line-height: 1.6;
     }
 
-    /* Header Style */
+    /* Header Style - Earth Tone */
     .header {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      color: white;
+      background: linear-gradient(135deg, #5c3a2e 0%, #7a5238 50%, #4a2c22 100%);
+      color: #f5ede0;
       padding: 3rem 2rem;
       text-align: center;
-      border-bottom: 4px solid #3b82f6;
+      border-bottom: 4px solid #c9a87b;
+      position: relative;
     }
 
     .header h1 {
@@ -42,11 +45,12 @@
       font-weight: 700;
       letter-spacing: -0.02em;
       margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     .header p {
       font-size: 1rem;
-      color: #94a3b8;
+      color: #e8d5b5;
       margin-top: 0.5rem;
     }
 
@@ -57,51 +61,55 @@
       padding: 2rem;
     }
 
-    /* Card / Section */
+    /* Card / Section - Tanah Liat */
     .card {
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-      border-radius: 16px;
+      background: #ffffff;
+      border-radius: 20px;
       padding: 1.8rem;
-      margin-bottom: 2.5rem;
-      transition: box-shadow 0.2s ease;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px -8px rgba(62, 42, 39, 0.15);
+      border: 1px solid #e0cfb5;
     }
 
     .card:hover {
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+      box-shadow: 0 12px 30px -12px rgba(62, 42, 39, 0.25);
+      transform: translateY(-2px);
+      border-color: #c9a87b;
     }
 
     .card h2 {
       font-size: 1.5rem;
-      font-weight: 600;
-      color: #0f172a;
+      font-weight: 700;
+      color: #6b3f2a;
       margin-bottom: 1rem;
       padding-bottom: 0.5rem;
-      border-bottom: 3px solid #3b82f6;
+      border-bottom: 3px solid #c9a87b;
       display: inline-block;
     }
 
     .card p {
       font-size: 0.95rem;
-      color: #334155;
+      color: #4a3733;
       margin: 1rem 0;
       line-height: 1.7;
     }
 
-    .card ul, .card li {
+    .card ul,
+    .card li {
       font-size: 0.95rem;
-      color: #334155;
+      color: #4a3733;
     }
 
     /* Syntax Highlighting Wrapper */
     pre {
-      background: #1e293b !important;
-      border-radius: 12px !important;
+      background: #2c241e !important;
+      border-radius: 14px !important;
       padding: 1rem !important;
       margin: 1.2rem 0 !important;
       overflow-x: auto;
       font-size: 0.85rem;
+      border: 1px solid #c9a87b;
     }
 
     code {
@@ -109,52 +117,52 @@
       font-size: 0.85rem;
     }
 
-    /* Tombol */
+    /* Tombol - Warna Tanah */
     .btn-container {
       text-align: center;
       margin-top: 1.2rem;
     }
 
     .run-btn {
-      background-color: #3b82f6;
-      color: white;
+      background: linear-gradient(90deg, #7a5238, #9b6e4c);
+      color: #f5ede0;
       border: none;
-      padding: 0.75rem 1.5rem;
+      padding: 0.75rem 1.8rem;
       font-family: 'Inter', sans-serif;
       font-size: 0.85rem;
       font-weight: 600;
       border-radius: 40px;
       cursor: pointer;
       transition: all 0.2s ease;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 4px 10px rgba(90, 55, 40, 0.2);
       display: inline-flex;
       align-items: center;
       gap: 8px;
     }
 
     .run-btn:hover {
-      background-color: #2563eb;
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+      background: linear-gradient(90deg, #8b5e42, #b07e56);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(90, 55, 40, 0.3);
     }
 
     .run-btn:active {
-      transform: translateY(0);
+      transform: translateY(1px);
     }
 
     /* Highlight untuk kesimpulan */
     .highlight-clean {
-      background: #f1f5f9;
-      border-left: 5px solid #3b82f6;
+      background: #faf3e8;
+      border-left: 5px solid #c9a87b;
       padding: 1.5rem;
-      border-radius: 12px;
+      border-radius: 14px;
       margin: 1.5rem 0;
     }
 
     .section {
-      background: #f8fafc;
-      border: 1px solid #e2e8f0;
-      border-radius: 20px;
+      background: #ffffff;
+      border: 1px solid #e0cfb5;
+      border-radius: 24px;
       padding: 2rem;
       margin-bottom: 2rem;
     }
@@ -162,8 +170,8 @@
     .section h2 {
       font-size: 1.8rem;
       font-weight: 700;
-      color: #0f172a;
       text-align: center;
+      color: #6b3f2a;
       margin-bottom: 1.5rem;
     }
 
@@ -182,15 +190,16 @@
 
     .modal-content {
       position: relative;
-      background: white;
+      background: #f5ede0;
       margin: 2% auto;
       width: 90%;
       height: 85%;
       max-width: 1200px;
-      border-radius: 20px;
+      border-radius: 24px;
       overflow: hidden;
       box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
       animation: fadeInUp 0.3s ease;
+      border: 1px solid #c9a87b;
     }
 
     @keyframes fadeInUp {
@@ -216,10 +225,10 @@
       top: 12px;
       font-size: 32px;
       font-weight: bold;
-      color: #1e293b;
+      color: #6b3f2a;
       cursor: pointer;
       z-index: 1001;
-      background: white;
+      background: #f5ede0;
       width: 36px;
       height: 36px;
       border-radius: 50%;
@@ -227,22 +236,43 @@
       align-items: center;
       justify-content: center;
       transition: all 0.2s;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 
     .close-modal:hover {
-      background: #f1f5f9;
-      color: #ef4444;
+      background: #c9a87b;
+      color: white;
+      transform: scale(1.05);
     }
 
     footer {
       text-align: center;
       padding: 2rem;
-      border-top: 1px solid #e2e8f0;
-      background: #f8fafc;
-      color: #64748b;
+      border-top: 1px solid #e0cfb5;
+      background: #f5f0e8;
+      color: #8b6b4f;
       font-size: 0.85rem;
       margin-top: 2rem;
+    }
+
+    /* scrollbar kustom */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #e8dccf;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #c9a87b;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #9b6e4c;
     }
 
     /* Responsive */
@@ -250,14 +280,21 @@
       .container {
         padding: 1rem;
       }
+
       .card {
         padding: 1.2rem;
       }
+
       .header h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
+
       .section h2 {
         font-size: 1.4rem;
+      }
+
+      pre {
+        font-size: 0.7rem;
       }
     }
   </style>
@@ -271,7 +308,7 @@
   </div>
 
   <div class="container">
-
+    <!-- semua konten card Anda tetap SAMA persis, tidak diubah -->
     <!-- 1. Builder Pattern -->
     <div class="card">
       <h2>1. Builder Pattern</h2>
@@ -924,11 +961,9 @@ void main() {
       </div>
     </div>
 
-</div>
-
     <!-- 13. Konflik Nama Antar Extension-->
     <div class="card">
-      <h2>12.Konflik Nama Antar Extension</h2>
+      <h2>13. Konflik Nama Antar Extension</h2>
       <p>Konflik Nama Antar Extension (Extension vs Extension Conflict) terjadi ketika dua atau lebih Extension Methods berbeda mendefinisikan nama fungsi
         yang sama persis untuk tipe data yang sama, dan keduanya aktif di ruang lingkup (scope) berkas yang sama.</p>
       <pre><code class="language-dart">
@@ -970,7 +1005,7 @@ void main() {
 
     <!-- 14. Prioritas Method Asli vs Extension (dan Nullable) -->
     <div class="card">
-      <h2>14.Prioritas Method Asli vs Extension (dan Nullable)</h2>
+      <h2>14. Prioritas Method Asli vs Extension (dan Nullable)</h2>
       <p>Ketika kita menggabungkan aturan Prioritas Method dengan konsep Nullable (Null Safety), ada beberapa skenario menarik yang terjadi di balik layar. Bagaimana jika
         sebuah kelas memiliki metode asli bernama sama dengan extension, namun variabel yang memanggilnya berstatus nullable (bisa null)?</p>
       <pre><code class="language-dart">
@@ -1002,11 +1037,6 @@ void main() {
         <button class="run-btn" onclick="openModal('https://dartpad.dev/c9fdc5600a6040147bd6b8c831ecf976')">▶ JALANKAN KODE</button>
       </div>
     </div>
-
-
-      
-
-      
 
     <!-- KESIMPULAN Clean White -->
     <div class="section">
